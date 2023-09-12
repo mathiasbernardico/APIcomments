@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return estrellas;
       }
 
-
     fetch("https://jsonplaceholder.typicode.com/comments")
         .then(response => response.json())
         .then(data => {
